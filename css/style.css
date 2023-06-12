@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body#pag-historia {
+    background-image: url(../imagens/imagemdefundo/pz_fundohistoria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 48px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+#cabecalho {
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho #logo {
+    width: 55px;
+}
+
+#cabecalho #menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#cabecalho #menu a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #ccc;
+    transition: all .3s linear;
+}
+
+#cabecalho #menu a:hover {
+    background-color: #06c;
+}
+
+#banners .container img {
+    display: flex;
+    width: 100%;
+}
+
+#sinopse {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sinopse img {
+    float: left;
+    margin-right: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#sinopse p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+#historia {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#historia .titulo {
+    color: #ccc;
+}
+
+#historia p {
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+body#pag-fotos {
+    background-color: darkslategray;
+}
+
+#fotos .titulo {
+    color: #ccc;
+}
+
+#fotos .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+#fotos .container img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+#fotos .container img:hover {
+    transform: scale(0.9);
+}
+
+body#pag-videos {
+    background-color: teal;
+}
+
+#videos .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+#videos .container iframe {
+    width: 100%;
+}
+
+#rodape {
+    background-color: #000;
+    padding: 30px;
+    color: #666;
+    text-align: center;
+}
+
+#rodape a {
+    color: #06c;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
